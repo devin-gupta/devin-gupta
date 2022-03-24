@@ -1,0 +1,39 @@
+VARIABLES
+
+:root {
+    --blue: #0077B8;
+    --white: #F5F5F5;
+    --slate: #211F1C;
+}
+
+/* MAIN STYLES */
+
+body {
+    color: #211F1C;
+}
+
+main {
+    font-family: lato;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+#intro {
+    margin: auto;
+    margin-top: 260px;
+    width: 800px;
+}
+
+a {
+    background: linear-gradient(to bottom, transparent 0, transparent 60%, rgba(0, 131, 255, 0.2) 60%, rgba(0, 119, 184, 0.2) 100%);
+    color: #211F1C;
+    /* color: #5CC6FF; */
+    text-decoration: none;
+    transition: color 0.5s ease-in-out;
+}
+
+a:hover {
+    background: #0077B8;
+    color: #F5F5F5;
+    transition: all 0.25s;
+}
